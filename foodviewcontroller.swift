@@ -14,7 +14,7 @@ class foodviewcontroller: UIViewController,UITableViewDataSource,UITableViewDele
     
     //商家資料陣列
     var Foods:[Food] = [
-        Food(name:"西堤牛排-頭份尚順店",type:"美食123",location:"苗栗縣頭份鎮尚順路77號",image:"teasy"),
+        Food(name:"西堤牛排-頭份尚順店",type:"美食",location:"苗栗縣頭份鎮尚順路77號",image:"teasy"),
         Food(name:"西堤牛排-桃園南華店",type:"美食",location:"桃園市龍潭區中正路398號",image:"teasy"),
         Food(name:"西堤牛排-基隆信一店",type:"美食",location:"基隆市中正區信一路177號15樓",image:"teasy"),
         Food(name:"西堤牛排-台北重慶南店",type:"美食",location:"台北市中山區南京東路2段11號2樓",image:"teasy"),
