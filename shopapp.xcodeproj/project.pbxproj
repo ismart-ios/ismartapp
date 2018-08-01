@@ -13,7 +13,6 @@
 		041AA1172111967E003F5A00 /* Carousel.png in Resources */ = {isa = PBXBuildFile; fileRef = 041AA1162111967D003F5A00 /* Carousel.png */; };
 		041AA1192111973A003F5A00 /* tasty_store.png in Resources */ = {isa = PBXBuildFile; fileRef = 041AA11821119739003F5A00 /* tasty_store.png */; };
 		041AA11B21119742003F5A00 /* tasty.png in Resources */ = {isa = PBXBuildFile; fileRef = 041AA11A21119742003F5A00 /* tasty.png */; };
-		041AA11F2111AAC4003F5A00 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041AA11E2111AAC4003F5A00 /* CollectionViewController.swift */; };
 		0470EDCD2105CFAF00FBA353 /* shopappViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0470EDCC2105CFAF00FBA353 /* shopappViewController.swift */; };
 		048CD1E72111816700A926AD /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048CD1B12111816700A926AD /* Food.swift */; };
 		048CD1E82111816700A926AD /* foodviewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048CD1B22111816700A926AD /* foodviewcontroller.swift */; };
@@ -57,7 +56,6 @@
 		041AA1162111967D003F5A00 /* Carousel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Carousel.png; path = shopapp/Picture/Carousel.png; sourceTree = SOURCE_ROOT; };
 		041AA11821119739003F5A00 /* tasty_store.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tasty_store.png; path = shopapp/Picture/tasty_store.png; sourceTree = SOURCE_ROOT; };
 		041AA11A21119742003F5A00 /* tasty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tasty.png; path = shopapp/Picture/tasty.png; sourceTree = SOURCE_ROOT; };
-		041AA11E2111AAC4003F5A00 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		0470EDCC2105CFAF00FBA353 /* shopappViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shopappViewController.swift; sourceTree = "<group>"; };
 		048CD1B12111816700A926AD /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		048CD1B22111816700A926AD /* foodviewcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = foodviewcontroller.swift; sourceTree = "<group>"; };
@@ -124,7 +122,6 @@
 		041AA11C2111A26F003F5A00 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				041AA11E2111AAC4003F5A00 /* CollectionViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -411,7 +408,6 @@
 				049E69D220FC83620071ECA4 /* AppDelegate.swift in Sources */,
 				049E69DA20FC83620071ECA4 /* shopapp.xcdatamodeld in Sources */,
 				048CD1E82111816700A926AD /* foodviewcontroller.swift in Sources */,
-				041AA11F2111AAC4003F5A00 /* CollectionViewController.swift in Sources */,
 				048CD1EB2111816700A926AD /* RestaurantDetailTableViewCel.swift in Sources */,
 				048CD1ED2111816700A926AD /* RestaurantDetailViewController.swift in Sources */,
 				048CD1E72111816700A926AD /* Food.swift in Sources */,
