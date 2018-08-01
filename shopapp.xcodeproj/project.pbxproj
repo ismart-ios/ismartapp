@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		041AA10E2111948F003F5A00 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 041AA10D2111948F003F5A00 /* 1.png */; };
+		041AA11321119615003F5A00 /* foodspic.png in Resources */ = {isa = PBXBuildFile; fileRef = 041AA11021119614003F5A00 /* foodspic.png */; };
+		041AA11421119615003F5A00 /* shoppic.png in Resources */ = {isa = PBXBuildFile; fileRef = 041AA11121119614003F5A00 /* shoppic.png */; };
+		041AA11521119615003F5A00 /* hostelpic.png in Resources */ = {isa = PBXBuildFile; fileRef = 041AA11221119615003F5A00 /* hostelpic.png */; };
+		041AA1172111967E003F5A00 /* Carousel.png in Resources */ = {isa = PBXBuildFile; fileRef = 041AA1162111967D003F5A00 /* Carousel.png */; };
+		041AA1192111973A003F5A00 /* tasty_store.png in Resources */ = {isa = PBXBuildFile; fileRef = 041AA11821119739003F5A00 /* tasty_store.png */; };
+		041AA11B21119742003F5A00 /* tasty.png in Resources */ = {isa = PBXBuildFile; fileRef = 041AA11A21119742003F5A00 /* tasty.png */; };
 		0470EDCD2105CFAF00FBA353 /* shopappViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0470EDCC2105CFAF00FBA353 /* shopappViewController.swift */; };
 		048CD1E72111816700A926AD /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048CD1B12111816700A926AD /* Food.swift */; };
 		048CD1E82111816700A926AD /* foodviewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048CD1B22111816700A926AD /* foodviewcontroller.swift */; };
@@ -45,7 +50,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		041AA10D2111948F003F5A00 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = shopapp/Picture/1.png; sourceTree = SOURCE_ROOT; };
+		041AA11021119614003F5A00 /* foodspic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = foodspic.png; path = shopapp/Picture/foodspic.png; sourceTree = SOURCE_ROOT; };
+		041AA11121119614003F5A00 /* shoppic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shoppic.png; path = shopapp/Picture/shoppic.png; sourceTree = SOURCE_ROOT; };
+		041AA11221119615003F5A00 /* hostelpic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hostelpic.png; path = shopapp/Picture/hostelpic.png; sourceTree = SOURCE_ROOT; };
+		041AA1162111967D003F5A00 /* Carousel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Carousel.png; path = shopapp/Picture/Carousel.png; sourceTree = SOURCE_ROOT; };
+		041AA11821119739003F5A00 /* tasty_store.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tasty_store.png; path = shopapp/Picture/tasty_store.png; sourceTree = SOURCE_ROOT; };
+		041AA11A21119742003F5A00 /* tasty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tasty.png; path = shopapp/Picture/tasty.png; sourceTree = SOURCE_ROOT; };
 		0470EDCC2105CFAF00FBA353 /* shopappViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shopappViewController.swift; sourceTree = "<group>"; };
 		048CD1B12111816700A926AD /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		048CD1B22111816700A926AD /* foodviewcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = foodviewcontroller.swift; sourceTree = "<group>"; };
@@ -96,12 +106,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		041AA10C21119487003F5A00 /* pic */ = {
+		041AA10F211195BD003F5A00 /* Pic */ = {
 			isa = PBXGroup;
 			children = (
-				041AA10D2111948F003F5A00 /* 1.png */,
+				041AA1162111967D003F5A00 /* Carousel.png */,
+				041AA11021119614003F5A00 /* foodspic.png */,
+				041AA11221119615003F5A00 /* hostelpic.png */,
+				041AA11121119614003F5A00 /* shoppic.png */,
+				041AA11821119739003F5A00 /* tasty_store.png */,
+				041AA11A21119742003F5A00 /* tasty.png */,
 			);
-			path = pic;
+			path = Pic;
 			sourceTree = "<group>";
 		};
 		0470EDCE2105CFBB00FBA353 /* Controller */ = {
@@ -197,7 +212,7 @@
 		049E69D020FC83620071ECA4 /* shopapp */ = {
 			isa = PBXGroup;
 			children = (
-				041AA10C21119487003F5A00 /* pic */,
+				041AA10F211195BD003F5A00 /* Pic */,
 				048CD254211192CB00A926AD /* View */,
 				048CD253211192C500A926AD /* Model */,
 				0470EDCE2105CFBB00FBA353 /* Controller */,
@@ -356,10 +371,15 @@
 				048CD2522111920A00A926AD /* Notice.storyboard in Resources */,
 				048CD1E92111816700A926AD /* Home.storyboard in Resources */,
 				048CD1F42111816700A926AD /* Member.storyboard in Resources */,
+				041AA11521119615003F5A00 /* hostelpic.png in Resources */,
 				049E69DF20FC83620071ECA4 /* LaunchScreen.storyboard in Resources */,
+				041AA11B21119742003F5A00 /* tasty.png in Resources */,
+				041AA11421119615003F5A00 /* shoppic.png in Resources */,
 				049E69DC20FC83620071ECA4 /* Assets.xcassets in Resources */,
 				049E69D720FC83620071ECA4 /* Main.storyboard in Resources */,
-				041AA10E2111948F003F5A00 /* 1.png in Resources */,
+				041AA1192111973A003F5A00 /* tasty_store.png in Resources */,
+				041AA11321119615003F5A00 /* foodspic.png in Resources */,
+				041AA1172111967E003F5A00 /* Carousel.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

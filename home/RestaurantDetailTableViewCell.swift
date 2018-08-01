@@ -1,20 +1,19 @@
 //
-//  FoodTableViewCell.swift
+//  RestaurantDetailTableViewCell.swift
 //  shopapp
 //
-//  Created by mac on 2018/7/25.
+//  Created by mac on 2018/7/30.
 //  Copyright © 2018年 mac. All rights reserved.
 //
 
 import UIKit
 
-class FoodTableViewCell: UITableViewCell {
+class RestaurantDetailTableViewCell: UITableViewCell {
     
-    @IBOutlet var nameLabel:UILabel!
-    @IBOutlet var locationLabel:UILabel!
-    @IBOutlet var typeLabel:UILabel!
-    @IBOutlet var thumbnailImageView:UIImageView!
-
+    @IBOutlet var fieldLabel:UILabel!
+    @IBOutlet var valueLabel:UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
