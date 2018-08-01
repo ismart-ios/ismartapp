@@ -104,10 +104,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="3jO-I3-dqw">
-                                                    <rect key="frame" x="6" y="2" width="70" height="76.5"/>
+                                                    <rect key="frame" x="6" y="2" width="70" height="76.666666666666671"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gZ1-Hd-2Ig">
-                                                            <rect key="frame" x="0.0" y="0.0" width="70" height="76.5"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="70" height="76.666666666666671"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="70" id="G6v-Jc-Hfa"/>
                                                                 <constraint firstAttribute="height" constant="76.333333333333329" id="Km0-QW-urE"/>
@@ -121,22 +121,22 @@
                                                     </userDefinedRuntimeAttributes>
                                                 </stackView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="k8a-IP-INJ">
-                                                    <rect key="frame" x="82" y="2" width="289" height="76.5"/>
+                                                    <rect key="frame" x="82" y="2" width="289" height="76.666666666666671"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0VZ-7v-fAa">
-                                                            <rect key="frame" x="0.0" y="0.0" width="289" height="25.5"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="289" height="26"/>
                                                             <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="20"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="glq-sx-yyU">
-                                                            <rect key="frame" x="0.0" y="30.5" width="289" height="20.5"/>
+                                                            <rect key="frame" x="0.0" y="31" width="289" height="20.333333333333329"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3bP-sW-vL7">
-                                                            <rect key="frame" x="0.0" y="56" width="289" height="20.5"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="253" text="type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3bP-sW-vL7">
+                                                            <rect key="frame" x="0.0" y="56.333333333333336" width="289" height="20.333333333333336"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -300,6 +300,6 @@
         <image name="shoppic.png" width="404" height="117"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="8Dq-An-abd"/>
+        <segue reference="ZER-nE-3Nn"/>
     </inferredMetricsTieBreakers>
 </document>

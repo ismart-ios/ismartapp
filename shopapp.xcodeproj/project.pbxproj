@@ -106,7 +106,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		041AA10F211195BD003F5A00 /* Pic */ = {
+		041AA10F211195BD003F5A00 /* Picture */ = {
 			isa = PBXGroup;
 			children = (
 				041AA1162111967D003F5A00 /* Carousel.png */,
@@ -116,7 +116,21 @@
 				041AA11821119739003F5A00 /* tasty_store.png */,
 				041AA11A21119742003F5A00 /* tasty.png */,
 			);
-			path = Pic;
+			path = Picture;
+			sourceTree = "<group>";
+		};
+		041AA11C2111A26F003F5A00 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		041AA11D2111A27E003F5A00 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		0470EDCE2105CFBB00FBA353 /* Controller */ = {
@@ -172,20 +186,6 @@
 			path = Notice;
 			sourceTree = "<group>";
 		};
-		048CD253211192C500A926AD /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		048CD254211192CB00A926AD /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		049E69C520FC83620071ECA4 = {
 			isa = PBXGroup;
 			children = (
@@ -212,9 +212,9 @@
 		049E69D020FC83620071ECA4 /* shopapp */ = {
 			isa = PBXGroup;
 			children = (
-				041AA10F211195BD003F5A00 /* Pic */,
-				048CD254211192CB00A926AD /* View */,
-				048CD253211192C500A926AD /* Model */,
+				041AA11D2111A27E003F5A00 /* Model */,
+				041AA11C2111A26F003F5A00 /* View */,
+				041AA10F211195BD003F5A00 /* Picture */,
 				0470EDCE2105CFBB00FBA353 /* Controller */,
 				049E69D120FC83620071ECA4 /* AppDelegate.swift */,
 				049E69DB20FC83620071ECA4 /* Assets.xcassets */,
