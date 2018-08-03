@@ -38,10 +38,10 @@
                         <color key="barTintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     </tabBar>
                     <connections>
-                        <segue destination="Xeq-zn-gPf" kind="relationship" relationship="viewControllers" id="CtB-nu-mHR"/>
                         <segue destination="g9R-cR-dFU" kind="relationship" relationship="viewControllers" id="hAr-7z-Svl"/>
-                        <segue destination="DkZ-GH-ZwB" kind="relationship" relationship="viewControllers" id="oMZ-qB-4m2"/>
                         <segue destination="ZYn-YY-stV" kind="relationship" relationship="viewControllers" id="aIT-Kb-GuE"/>
+                        <segue destination="Xeq-zn-gPf" kind="relationship" relationship="viewControllers" id="CtB-nu-mHR"/>
+                        <segue destination="bEe-zv-77b" kind="relationship" relationship="viewControllers" id="oMZ-qB-4m2"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vGQ-qa-PyS" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -68,6 +68,22 @@
             </objects>
             <point key="canvasLocation" x="704" y="335"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="wte-1u-zYW">
+            <objects>
+                <viewController id="bEe-zv-77b" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5tL-Fy-e2T">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="g1M-MI-i65"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" systemItem="favorites" id="Kgw-oT-zfT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7eS-hP-3LU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="649" y="820"/>
+        </scene>
         <!--Home-->
         <scene sceneID="PvO-zS-lAa">
             <objects>
@@ -77,16 +93,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yxI-uX-0Ba" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1013" y="117"/>
-        </scene>
-        <!--Favorites-->
-        <scene sceneID="1wo-UB-JL4">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Favorites" id="DkZ-GH-ZwB" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="rms-6X-VbI"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PTU-4j-oYl" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="649" y="820"/>
         </scene>
     </scenes>
 </document>

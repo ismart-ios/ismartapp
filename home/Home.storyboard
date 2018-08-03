@@ -16,6 +16,51 @@
         </array>
     </customFonts>
     <scenes>
+        <!--Home Search View Controller-->
+        <scene sceneID="jUu-ly-T7T">
+            <objects>
+                <viewController storyboardIdentifier="HomeSearch" id="EpA-hL-Mqy" customClass="HomeSearchViewController" customModule="shopapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1Cg-gF-htE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="n2D-Fm-rWu"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H0i-Op-e6K" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1735" y="-553"/>
+        </scene>
+        <!--Home Location View Controller-->
+        <scene sceneID="EMd-cS-8R5">
+            <objects>
+                <viewController storyboardIdentifier="HomeLocation" id="XwO-9K-mlo" customClass="HomeLocationViewController" customModule="shopapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lR6-Vm-uMQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="Had-sN-D45"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gfm-PS-SjT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2438" y="-554"/>
+        </scene>
+        <!--HomeQ Rcode View Controller-->
+        <scene sceneID="YtS-HV-yjI">
+            <objects>
+                <viewController storyboardIdentifier="HomeQRcode" id="Y7B-Op-7of" customClass="HomeQRcodeViewController" customModule="shopapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fVm-lx-Esx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="9eV-kU-lYS"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hze-J8-gOG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3148" y="-554"/>
+        </scene>
         <!--Home View Controller-->
         <scene sceneID="EdH-M7-two">
             <objects>
@@ -78,7 +123,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="7Wr-CU-JLm"/>
                     </view>
-                    <navigationItem key="navigationItem" id="zzx-uR-2c4"/>
+                    <navigationItem key="navigationItem" id="zzx-uR-2c4">
+                        <nil key="title"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K2h-l4-fFG" sceneMemberID="firstResponder"/>
             </objects>
