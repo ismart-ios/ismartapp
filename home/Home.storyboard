@@ -38,13 +38,19 @@
                     <view key="view" contentMode="scaleToFill" id="lR6-Vm-uMQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dey-ps-fHP">
+                                <rect key="frame" x="0.0" y="62" width="414" height="674"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="Had-sN-D45"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gfm-PS-SjT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2438" y="-554"/>
+            <point key="canvasLocation" x="2437.68115942029" y="-554.34782608695662"/>
         </scene>
         <!--HomeQ Rcode View Controller-->
         <scene sceneID="YtS-HV-yjI">
@@ -69,6 +75,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RNN-ao-WiY">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yZt-Jb-D9R">
                                 <rect key="frame" x="9" y="263" width="397" height="117"/>
                                 <state key="normal" backgroundImage="foodspic.png"/>
@@ -105,17 +114,21 @@
                         </subviews>
                         <color key="backgroundColor" red="0.92720891500000002" green="0.92263498359999996" blue="0.89555484890000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="RNN-ao-WiY" firstAttribute="bottom" secondItem="7Wr-CU-JLm" secondAttribute="bottom" id="BvU-BO-Y2v"/>
                             <constraint firstItem="GE0-vj-06w" firstAttribute="leading" secondItem="7Wr-CU-JLm" secondAttribute="leading" constant="9" id="CZK-cN-b6Q"/>
+                            <constraint firstItem="RNN-ao-WiY" firstAttribute="top" secondItem="o2H-hj-Pza" secondAttribute="top" id="GSY-Co-5KT"/>
                             <constraint firstItem="QL6-NV-pnO" firstAttribute="leading" secondItem="7Wr-CU-JLm" secondAttribute="leading" constant="9" id="H7b-0y-cWj"/>
                             <constraint firstItem="7Wr-CU-JLm" firstAttribute="trailing" secondItem="QL6-NV-pnO" secondAttribute="trailing" constant="8" id="MwJ-hv-DmT"/>
                             <constraint firstItem="QL6-NV-pnO" firstAttribute="top" secondItem="yZt-Jb-D9R" secondAttribute="bottom" constant="8" id="QCc-D8-3rT"/>
                             <constraint firstItem="yZt-Jb-D9R" firstAttribute="leading" secondItem="7Wr-CU-JLm" secondAttribute="leading" constant="9" id="bPc-v1-Yrk"/>
                             <constraint firstItem="cji-DZ-Sfp" firstAttribute="leading" secondItem="7Wr-CU-JLm" secondAttribute="leading" id="cMc-uH-9Qj"/>
+                            <constraint firstItem="RNN-ao-WiY" firstAttribute="leading" secondItem="7Wr-CU-JLm" secondAttribute="leading" id="etT-qH-rpB"/>
                             <constraint firstItem="0Gv-O1-5HT" firstAttribute="top" secondItem="7Wr-CU-JLm" secondAttribute="top" id="hTF-0K-yEA"/>
                             <constraint firstItem="0Gv-O1-5HT" firstAttribute="leading" secondItem="cji-DZ-Sfp" secondAttribute="leading" id="jFI-rD-NOG"/>
                             <constraint firstItem="cji-DZ-Sfp" firstAttribute="top" secondItem="0Gv-O1-5HT" secondAttribute="bottom" constant="-2" id="kdm-DO-Yi9"/>
                             <constraint firstItem="GE0-vj-06w" firstAttribute="top" secondItem="QL6-NV-pnO" secondAttribute="bottom" constant="8" id="t7z-WF-krN"/>
                             <constraint firstItem="7Wr-CU-JLm" firstAttribute="trailing" secondItem="cji-DZ-Sfp" secondAttribute="trailing" id="tW7-7t-pSv"/>
+                            <constraint firstItem="RNN-ao-WiY" firstAttribute="trailing" secondItem="7Wr-CU-JLm" secondAttribute="trailing" id="vfP-eC-2pb"/>
                             <constraint firstItem="yZt-Jb-D9R" firstAttribute="top" secondItem="cji-DZ-Sfp" secondAttribute="bottom" constant="8" id="wYA-rT-Nai"/>
                             <constraint firstItem="7Wr-CU-JLm" firstAttribute="trailing" secondItem="GE0-vj-06w" secondAttribute="trailing" constant="8" id="xhe-27-4Sa"/>
                             <constraint firstItem="0Gv-O1-5HT" firstAttribute="trailing" secondItem="cji-DZ-Sfp" secondAttribute="trailing" id="ywa-Oh-q1h"/>
@@ -129,7 +142,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K2h-l4-fFG" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1735.2" y="116.49175412293854"/>
+            <point key="canvasLocation" x="1734.7826086956522" y="115.7608695652174"/>
         </scene>
         <!--title-->
         <scene sceneID="DZT-6k-Ooh">

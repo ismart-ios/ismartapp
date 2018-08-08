@@ -1,5 +1,5 @@
 //
-//  FavoritesViewController.swift
+//  NoticeViewController.swift
 //  shopapp
 //
 //  Created by mac on 2018/8/3.
@@ -8,12 +8,12 @@
 
 import UIKit
 
-class FavoritesViewController: UIViewController {
+class NoticeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.navigationItem.title = "最愛收藏"
+        self.navigationItem.title = "訊息通知"
 
         // Do any additional setup after loading the view.
     }
