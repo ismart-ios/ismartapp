@@ -126,8 +126,8 @@
 		04A38B5A2114009300EA519D /* NoticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeViewController.swift; sourceTree = "<group>"; };
 		04A38B5C2114035300EA519D /* MemberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberViewController.swift; sourceTree = "<group>"; };
 		04A38B5E21142F7A00EA519D /* star.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = star.jpeg; sourceTree = "<group>"; };
-		16938FC1F54BB801A894EA5A /* Pods-shopapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shopapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-shopapp/Pods-shopapp.release.xcconfig"; sourceTree = "<group>"; };
-		666E3227E04DECD19152A968 /* Pods-shopapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shopapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-shopapp/Pods-shopapp.debug.xcconfig"; sourceTree = "<group>"; };
+		15DBDE413B116DC4EB3BB68D /* Pods-shopapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shopapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-shopapp/Pods-shopapp.release.xcconfig"; sourceTree = "<group>"; };
+		79DA7F8C22C449AFF6CC23DF /* Pods-shopapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shopapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-shopapp/Pods-shopapp.debug.xcconfig"; sourceTree = "<group>"; };
 		817F7D9171288315332FB898 /* libPods-shopapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-shopapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -180,20 +180,6 @@
 				041AA11A21119742003F5A00 /* tasty.png */,
 			);
 			path = Picture;
-			sourceTree = "<group>";
-		};
-		041AA11C2111A26F003F5A00 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		041AA11D2111A27E003F5A00 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		0470EDCE2105CFBB00FBA353 /* Controller */ = {
@@ -291,8 +277,6 @@
 		049E69D020FC83620071ECA4 /* shopapp */ = {
 			isa = PBXGroup;
 			children = (
-				041AA11D2111A27E003F5A00 /* Model */,
-				041AA11C2111A26F003F5A00 /* View */,
 				041AA10F211195BD003F5A00 /* Picture */,
 				0470EDCE2105CFBB00FBA353 /* Controller */,
 				049E69D120FC83620071ECA4 /* AppDelegate.swift */,
@@ -357,8 +341,8 @@
 		C9BEE2AB42C638E600AB8C51 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				666E3227E04DECD19152A968 /* Pods-shopapp.debug.xcconfig */,
-				16938FC1F54BB801A894EA5A /* Pods-shopapp.release.xcconfig */,
+				79DA7F8C22C449AFF6CC23DF /* Pods-shopapp.debug.xcconfig */,
+				15DBDE413B116DC4EB3BB68D /* Pods-shopapp.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -764,7 +748,7 @@
 		};
 		049E69FA20FC83620071ECA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 666E3227E04DECD19152A968 /* Pods-shopapp.debug.xcconfig */;
+			baseConfigurationReference = 79DA7F8C22C449AFF6CC23DF /* Pods-shopapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -779,7 +763,7 @@
 		};
 		049E69FB20FC83620071ECA4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16938FC1F54BB801A894EA5A /* Pods-shopapp.release.xcconfig */;
+			baseConfigurationReference = 15DBDE413B116DC4EB3BB68D /* Pods-shopapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
